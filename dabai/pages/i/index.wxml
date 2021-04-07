@@ -1,0 +1,22 @@
+<!--index.wxml-->
+
+<view class="gy1">
+    <image src="/image/gy1.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>关于店铺</text>
+    </view> 
+
+     <view class="text2">
+        <text>
+   鲜果配送，是由水果进口商直销原装水果，专营进口高档水果，兼营国产优质水果。精选全球鲜果美食，主营各类水果产品，包括进口鲜果和国内优质鲜果。水果先生的愿望是，让客户享受到真正健康、美味的世界鲜果和管家式体贴放心的服务；为消费者提供健康、绿色、优质的鲜果产品和个性化鲜果服务，倡导轻食健康生活理念。
+店铺地址：XXXXXXXXXXXXXXXXXXXXX
+派送电话：400-0000-000
+</text>
+    </view> 
+
+<view class="gy">
+    <image src="/image/gy.jpg"></image>
+</view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>

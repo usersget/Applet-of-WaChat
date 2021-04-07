@@ -1,0 +1,25 @@
+/* pages/store4/index.wxss */
+.yy{
+  width: 95%;
+  margin: 0 auto;
+}
+.name{
+  width: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 900;
+}
+.start{
+  width: 50%;
+  height: 18px;
+}
+.start image{
+  width: 11px;
+  display: inline-block;
+}
+.nav_pin{
+  text-align: center;
+  color: #f40;
+}
+

@@ -1,0 +1,34 @@
+
+.scroll {
+  white-space: nowrap;
+  background-color: #fff;
+  padding: 20rpx 0 20rpx 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+}
+.styleCss {
+  display: inline-block;
+}
+.con-text {
+  color: #888888;
+  font-size: 30rpx;
+  text-align: center;
+}
+.list-cont {
+  display: inline-block;
+  margin-right: 56rpx;
+}
+.active .con-text {
+  color: #333333;
+  font-weight: bold;
+}
+.active .swiper-tab-line {
+  border-bottom: 6rpx solid #5598e7;
+  width: 100%;
+  margin: 20rpx auto 0;
+  border-top: 6rpx solid #5598e7;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+

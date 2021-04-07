@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "扫码签到",
+  "usingComponents": {
+    "activity-info": "/pages/check/components/activityInfo",
+    "user-info": "/pages/check/components/userInfo"
+  }
+}

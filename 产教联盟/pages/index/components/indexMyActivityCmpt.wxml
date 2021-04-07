@@ -1,0 +1,6 @@
+<!--pages/index/components/indexMyActivityCmpt.wxml-->
+<view class="myactivitybg data-v-41864fb8">
+  <!-- <image class="head data-v-41864fb8" src="{{myActivity.advertisingPhoto}}"></image> -->
+  <image class="head data-v-41864fb8" src="{{head}}"></image>
+  <text class="title data-v-41864fb8">你的努力，终将美好!</text>
+  <button class="button data-v-41864fb8" open-type="getUserInfo" type="default" data-event-opts="{{[['tap',[['goApply',['$event']]]]]}}" bindtap="bindbutton">马上报名</button></view>

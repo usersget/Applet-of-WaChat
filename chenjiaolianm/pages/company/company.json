@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "入驻单位",
+  "usingComponents": {
+    "company-list-cmpt": "/pages/company/components/companyListCmpt"
+  }
+}

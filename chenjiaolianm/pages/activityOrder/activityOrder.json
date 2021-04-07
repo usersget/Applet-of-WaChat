@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "活动订单",
+  "usingComponents": {
+    "s-popup": "/pages/activityOrder/components/s-popup/index"
+  }
+}

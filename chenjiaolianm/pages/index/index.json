@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "index-banner-cmpt": "/pages/index/components/indexBannerCmpt",
+    "index-menus-cmpt": "/pages/index/components/indexMenusCmpt",
+    "index-my-activity-cmpt": "/pages/index/components/indexMyActivityCmpt",
+    "index-my-activity-a-index": "/pages/index/components/indexMyActivityAIndex",
+    "company-cmpt": "/pages/company/companyCmpt",
+    "activity-list-cmpt": "/pages/activity/components/activityListCmpt"
+  }
+}

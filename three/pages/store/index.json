@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "navigation":"/commip/navigation/navigation",
+    "moue":"/commip/moue/moue"
+    
+  },
+  "navigationBarBackgroundColor": "#0f0",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "豆瓣评分",
+  "backgroundColor": "#0f0",
+  "backgroundTextStyle": "light"
+  
+
+}

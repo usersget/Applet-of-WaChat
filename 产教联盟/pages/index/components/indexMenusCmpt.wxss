@@ -1,0 +1,20 @@
+/* pages/index/components/indexMenusCmpt.wxss */
+
+.menus image.data-v-654a6a03 {
+	width: 90rpx;
+	height: 90rpx;
+}
+.menus.data-v-654a6a03 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 40rpx 0;
+}
+.menus text.data-v-654a6a03 {
+	font-size: 24rpx;
+	display: block;
+	color: #333333;
+}
+

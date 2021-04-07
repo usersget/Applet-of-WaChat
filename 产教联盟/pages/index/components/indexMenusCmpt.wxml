@@ -1,0 +1,13 @@
+<!--pages/index/components/indexMenusCmpt.wxml-->
+<view class="data-v-654a6a03">
+  <view class="menus data-v-654a6a03">
+    <block wx:for="{{menus}}" wx:for-item="item" wx:for-index="index" wx:key="url" >
+      <block class="data-v-654a6a03">
+        <view class="data-v-654a6a03">
+          <image src="{{item.url}}" mode="widthFix" bindtap="bindmenus" data-number="{{item.id}}" class="data-v-654a6a03"></image>
+          <text class="data-v-654a6a03">{{item.text}}</text>
+        </view>
+      </block>
+    </block>
+  </view>
+  <navigator url="{{url}}" class="data-v-654a6a03"></navigator></view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "活动",
+  "usingComponents": {
+    "activity-content-cmpt": "/pages/activity/components/activityContentCmpt",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "search": "/components/uni-search-bar/search"
+  }
+}

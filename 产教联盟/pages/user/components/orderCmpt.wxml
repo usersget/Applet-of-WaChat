@@ -1,0 +1,15 @@
+<!--pages/user/components/orderCmpt.wxml-->
+<view>
+  <view class="grating">
+    <view class="row">
+      <block wx:for="{{orderCmpt}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <block>
+          <view data-event-opts="{{item.title}}" class="column" bindtap="binduser">
+            <image class="img" src="{{item.image}}" mode="aspectFit"></image>
+            <text class="text">{{item.title}}</text>
+          </view>
+        </block>
+      </block>
+    </view>
+  </view>
+</view>

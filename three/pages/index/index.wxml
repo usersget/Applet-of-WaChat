@@ -1,0 +1,20 @@
+<navigation show="{{flase}}" bind:inputEvent="onsearchinput"></navigation>
+<view class="item_list_group" wx:if="{{!search.length&&hosit.length}}">
+  <view class="hosite">
+    <view class="hosite_le">历史记录</view>
+    <view class="hosite_ri" bindtap="clear"> 清除</view>
+  </view>
+  <view class="record" wx:for="{{hosit}}" wx:for-index="index" wx:for-item="item"wx:key="title">
+    {{item.title}}
+  </view>
+</view>
+<view class="item_list_group">
+  <navigator class="item_group" wx:for="{{search}}" wx:for-index="index" wx:for-item="list" wx:key="url" bindtap="storage" data-cont="{{list.title}}" url="/pages/store4/index?id={{list.subtype}}&text={{list.subtype}}">
+    <image src="{{list.pic.normal}}" class="thumbnail"></image>
+      <view class="info_group">
+        <view class="title">{{list.title}}</view>
+        <view class="rate_year">{{list.rating.star_count}}分/{{list.year}}</view>
+      </view>
+  </navigator>
+</view>
+

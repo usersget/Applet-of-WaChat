@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "意见反馈",
+  "usingComponents": {
+    "uploud-images": "/pages/feedback/components/uploud-images/uploud-images"
+  }
+}

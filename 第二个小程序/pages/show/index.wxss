@@ -1,0 +1,29 @@
+/* pages/show/index.wxss */
+.pp{
+  width: 100%;
+  padding: 0 15rpx;
+}
+.headspace image{
+  width: 100%;
+  height: 300rpx;
+  margin: 0 auto;
+}
+.head{
+  margin: 0 auto;
+  width: 80%;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: darkgray;
+}
+
+.yy{
+  border-top: 1px solid gainsboro;
+  width: 90%;
+  padding: 20rpx 20rpx;
+}
+.con image{
+  width: 90%;
+  height: 400rpx;
+  margin:0 auto ;
+}

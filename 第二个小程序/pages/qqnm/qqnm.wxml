@@ -1,0 +1,20 @@
+<!--pages/qqnm/qqnm.wxml-->
+<view class="big">
+  <view class="imgq">
+    <image mode="widthFix" class="img" src="/pages/image/a12.jpg"></image>
+  </view>
+  <view class="heads">
+    木地板
+  </view>
+  <view class="couu" >
+  <view class="conet">
+      <view class="le">库存：100</view>
+      <view class="ri">运费：100</view>
+  </view>
+  <view class="conet">
+      <view class="le">库存：100</view>
+      <view class="ri kk">运费：100</view>
+  </view>
+</view>
+<button>电话订单</button>
+</view>

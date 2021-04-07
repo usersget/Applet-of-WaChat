@@ -1,0 +1,94 @@
+/* pages/index/components/indexMyActivityAIndex.wxss */
+
+.myactivitybg.data-v-76af76bb {
+  width: 702rpx;
+  height: 386rpx;
+  background-color: #ffffff;
+  -webkit-border-radius: 33rpx;
+          border-radius: 33rpx;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  padding: 33rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.head.data-v-76af76bb {
+  width: 142rpx;
+  height: 43rpx;
+}
+.uni-activity.data-v-76af76bb {
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
+}
+.activityView.data-v-76af76bb {
+width: 390rpx;
+height: 220rpx;
+-webkit-box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+-webkit-border-radius: 12rpx;
+border-radius: 12rpx;
+margin-top: 40rpx;
+margin-left: 22rpx;
+margin-bottom: 54rpx;
+}
+.title.data-v-76af76bb {
+-webkit-box-align: center;
+-webkit-align-items: center;
+align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
+width: 300rpx;
+height: 66rpx;
+background-color: rgba(249, 249, 249, 1);
+-webkit-border-radius: 33rpx;
+border-radius: 33rpx;
+margin-top: 30rpx;
+margin-left: 46rpx;
+margin-right: 44rpx;
+
+}
+.title .title_v{
+        width: 66rpx;
+        height: 66rpx;
+        border-radius: 33rpx; 
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}
+.title image.data-v-76af76bb {
+/* border-radius: 50%; */
+}
+.title text.data-v-76af76bb {
+padding-left: 22rpx;
+font-size: 26rpx;
+font-weight: bold;
+}
+.title-name.data-v-76af76bb {
+width: 336rpx;
+font-size: 24rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: rgba(51, 51, 51, 1);
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+padding-left: 18rpx;
+padding-top: 30rpx;
+}
+.title-addr.data-v-76af76bb {
+width: 336rpx;
+font-size: 22rpx;
+font-family: PingFang SC;
+font-weight: 500;
+color: rgba(136, 136, 136, 1);
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+padding-left: 18rpx;
+}
+

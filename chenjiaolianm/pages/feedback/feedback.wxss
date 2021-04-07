@@ -1,0 +1,11 @@
+
+.uni-textarea{
+	border: 1rpx solid #EEEEEE;
+}
+.submit{
+	-webkit-border-radius: 50rpx;
+	        border-radius: 50rpx;
+	margin: 20rpx 20rpx;
+	background-color: #8A6DE9;
+}
+

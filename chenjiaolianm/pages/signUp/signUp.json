@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "报名信息",
+  "usingComponents": {
+    "h-mmessages": "/components/HM-messages/HM-messages"
+  }
+}

@@ -1,0 +1,16 @@
+<view class="pp">
+  <view class="headspace">
+    <image src="/pages/image/s1.jpg"></image>
+  </view>
+  <view class="con">
+      <view class="head">
+        01 商品详情
+      </view>
+      <view class="yy">
+        本课程对于沉浸式虚拟现实，全景实现虚拟显示和虚实结合的增强现实等技术进行了一个入门的讲解，意在于
+        引导同学们进入到虚拟显示的开发队伍中来，课程讲解了虚拟显示的基本概念，基本原理，以及基本的Unity平台的
+        虚拟显示开发方法和开发实力。该课程系统全面，深入浅出，易学易会，实列讲解，适合于虚拟现实开发的初学者学习。
+      </view>
+      <image src="/pages/image/1.jpg"></image>
+    </view>
+</view>

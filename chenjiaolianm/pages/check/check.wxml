@@ -1,0 +1,1 @@
+<view><activity-info vue-id="ac2d09a4-1" checkActivity="{{checkActivity}}" bind:__l="__l"></activity-info><user-info vue-id="ac2d09a4-2" bind:__l="__l"></user-info></view>

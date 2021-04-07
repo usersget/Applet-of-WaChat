@@ -1,0 +1,92 @@
+
+page{background-color: #FFFFFF;}
+
+
+.phone.data-v-1081e786{
+	width: 702rpx;
+	height: 80rpx;
+	margin-left: 24rpx;
+	margin-right: 23rpx;
+	margin-top: 20rpx;
+	font-size: 28rpx;
+	background-color: #F9F9F9;
+	-webkit-border-radius: 39rpx;
+	        border-radius: 39rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.phone input.data-v-1081e786{
+	padding-left: 40rpx;
+}
+.check.data-v-1081e786{
+	width: 360rpx;
+	height: 80rpx;
+	margin-left: 24rpx;
+	margin-top: 40rpx;
+	font-size: 28rpx;
+	background-color: #F9F9F9;
+	-webkit-border-radius: 39rpx;
+	        border-radius: 39rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.check input.data-v-1081e786{
+	padding-left: 40rpx;
+}
+.model-1.data-v-1081e786{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.model-1 button.data-v-1081e786{
+	width: 284rpx;
+	height: 80rpx;
+	margin-top: 40rpx;
+	background-color: #F2F2F2;
+	-webkit-border-radius: 39rpx;
+	        border-radius: 39rpx;
+	color: #888888;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.confirm button.data-v-1081e786{
+	width: 702rpx;
+	height: 80rpx;
+	margin-left: 24rpx;
+	margin-right: 23rpx;
+	margin-top: 40rpx;
+	font-size: 28rpx;
+	background-color: #F2F2F2;
+	color: #888888;
+	-webkit-border-radius: 39rpx;
+	        border-radius: 39rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+button.data-v-1081e786::after{ border: none;}
+

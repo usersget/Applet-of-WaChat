@@ -1,0 +1,28 @@
+<!--pages/check/components/activityInfo.wxml-->
+<view class="background data-v-29a16586">
+  <view data-event-opts="{{[['tap',[['goActivity',['$0'],['aid']]]]]}}" class="info data-v-29a16586" bindtap="__e">
+    <block wx:for="{{checkActivity}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <block class="data-v-29a16586">
+        <view class="image-info data-v-29a16586">
+          <image src="{{item.activityPosters}}" mode="widthFix" class="data-v-29a16586"></image>
+          <view class="img data-v-29a16586">
+            <image src="{{more}}" mode="widthFix" class="data-v-29a16586">
+
+            </image>
+          </view>
+        </view>
+        <view class="title-info data-v-29a16586">
+          <view class="name data-v-29a16586">
+            {{item.activityTitle}}
+          </view>
+          <view class="date data-v-29a16586">
+            {{item.addr}}
+          </view>
+          <view class="addr data-v-29a16586">
+            {{item.activityStartTime}}
+          </view>
+        </view>
+      </block>
+    </block>
+  </view>
+</view>

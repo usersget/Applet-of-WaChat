@@ -1,0 +1,52 @@
+/* pages/qqnm/qqnm.wxss */
+.big{
+  width: 98%;
+  margin: 0 auto;
+}
+.imgq{
+  width: 100%;
+  margin: 0 auto;
+}
+image{
+  width: 100%;
+  margin: 0 auto;
+}
+.heads{
+  width: 98%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #4e4e4e;
+  margin: 0 auto;
+}
+.couu{
+  width: 100%;
+  border-bottom: 1rpx solid #4e4e4e;
+}
+.conet{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  line-height: 80rpx;
+}
+.conet .le{
+  width: 50%;
+  height: 100%;
+}
+.conet .ri{
+  /* 将文字分到两端 */
+  /* justify-content: space-between; */
+  width: 50%;
+  height: 100%;
+  text-align: right;
+
+}
+.kk{
+  color: #f40;
+  font-size: 18px;
+}
+button{
+  width: 98%;
+  background-color: rgb(61, 100, 2);
+  color: white;
+}

@@ -1,0 +1,18 @@
+<!--pages/check/checkError.wxml-->
+<view class="background data-v-666bda40">
+  <view class="image data-v-666bda40">
+    <image src="{{image}}" class="data-v-666bda40">
+    </image>
+</view>
+<view class="tip data-v-666bda40">
+  检票失败
+</view>
+<view class="title data-v-666bda40">
+<text>请检查您的网络环境或重新提交</text>
+</view>
+<view class="button data-v-666bda40">
+  <button data-event-opts="{{}}" bindtap="bindscan_code" class="data-v-666bda40">重新提交</button>
+</view>
+<!-- <view class="cancel data-v-666bda40" bindtap="canceled">
+  <text class="data-v-666bda40">取消</text></view>
+--></view> 

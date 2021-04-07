@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "strat":"/commip/strat/strat",
+    "tag":"/commip/tag/tag",
+    "commentary":"/commip/commentary/commentary",
+    "list":"/commip/list/list"
+  }
+}

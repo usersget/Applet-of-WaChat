@@ -1,0 +1,80 @@
+/* pages/user/components/personalCmpt.wxss */
+@charset "UTF-8";
+.view1 {
+  width: 100%;
+  height: 300rpx;
+  background-color: #d1e0f2;
+}
+.view2 {
+  height: 116rpx;
+  width: 100%;
+  position: relative;
+  top: 52rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.head {
+  height: 116rpx;
+  width: 116rpx;
+  position: relative;
+  left: 56rpx;
+}
+.info {
+  width: 558rpx;
+  height: 116rpx;
+  position: relative;
+  left: 30rpx;
+}
+.headimg {
+  height: 116rpx;
+  width: 116rpx;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+.up {
+  height: 30rpx;
+  position: relative;
+  top: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.dn {
+  position: relative;
+  top: 40rpx;
+}
+.text1 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  top: -15rpx;
+}
+.text2 {
+  display: inline-block;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.moreimg {
+  width: 17rpx;
+  height: 28rpx;
+  position: absolute;
+  top: 18rpx;
+  left: 446rpx;
+}
+

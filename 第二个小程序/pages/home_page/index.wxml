@@ -1,0 +1,22 @@
+<!--pages/home_page/index.wxml-->
+<!-- 顶部图片 -->
+<view class="headspace">
+  <image src="/pages/image/a11.jpg"></image>
+</view>
+<!-- 导航栏 -->
+<view class="navigation_bar">
+  <navigator url="/pages/qqnm/qqnm" hover-class="none" class="navigation_bar_cyclic" wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="photo">
+    <view class="img">
+      <image src="{{list.photo}}"></image>
+    </view>
+    <view class="text">
+      {{list.text}}
+    </view>
+  </navigator>
+</view>
+<view class="headspace">
+  <image src="/pages/image/b3.jpg"></image>
+</view>
+<view class="headspace">
+  <image src="/pages/image/b2.jpg"></image>
+</view>

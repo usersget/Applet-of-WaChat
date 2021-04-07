@@ -1,0 +1,2 @@
+<!--pages/detail/detail.wxml-->
+<commentary display="{{true}}" score="{{score}}" arrmove="{{arrmove}}" ></commentary>

@@ -1,0 +1,7 @@
+<!--commip/strat/strat.wxml-->
+<view class="strat">
+    <image wx:for="{{lights}}" wx:for-index="index" wx:key="index" style="width:{{x}}rpx;height:{{y}}rpx;" src="/image/rate_light.png"></image>
+    <image style="width:{{x}}rpx;height:{{y}}rpx;" wx:for="{{helfs}}" wx:for-index="index" wx:key="index" src="/image/rate_half.png"></image>
+    <image style="width:{{x}}rpx;height:{{y}}rpx;" wx:for="{{grays}}" wx:for-index="index" wx:key="index" src="/image/rate_gray.png"></image>
+  <text wx:if="{{IS}}">{{score}}</text>
+</view>

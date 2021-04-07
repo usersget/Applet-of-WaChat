@@ -1,0 +1,39 @@
+/* pages/user/components/orderCmpt.wxss */
+@charset "UTF-8";
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grating {
+  width: 702rpx;
+  height: 147rpx;
+  background: white;
+  border-radius: 33rpx;
+  margin-left: 24rpx;
+  position: relative;
+  top: -81rpx;
+}
+page {
+  background-color: #f9f9f9;
+}
+.img {
+  width: 47rpx;
+  height: 51rpx;
+  margin-top: 30rpx;
+}
+.text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 20rpx;
+}
+

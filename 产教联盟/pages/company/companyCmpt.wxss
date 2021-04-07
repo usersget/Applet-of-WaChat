@@ -1,0 +1,102 @@
+
+.companyblock {
+	background-color: #ffffff;
+	width: 702rpx;
+	height: 387rpx;
+	position: absolute;
+	z-index: 1;
+	margin-top: 15rpx;
+	margin-left: 24rpx;
+	margin-right: 23rpx;
+	-webkit-border-radius: 33rpx;
+	        border-radius: 33rpx;
+}
+.head {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-content: center;
+	        align-content: center;
+	width: 100%;
+	height: 112rpx;
+}
+.headicon {
+	padding-top: 33rpx;
+	padding-left: 20rpx;
+	width: 142rpx;
+	height: 43rpx;
+}
+.headtitle {
+	padding-top: 20rpx;
+	padding-left: 420rpx;
+}
+.companylogo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	height: 236rpx;
+	padding-top: 40rpx;
+}
+.logo {
+	width: 96rpx;
+	height: 96rpx;
+}
+.name {
+	font-size: 24rpx;
+	display: block;
+	color: #333333;
+}
+.wenben {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-left: 20rpx;
+	width: 190rpx;
+	overflow: hidden;
+	text-overflow: ellipsis; /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1; /** 显示的行数 **/
+}
+.logobackground1 {
+	background-color: #ffffff;
+	width: 210rpx;
+	height: 236rpx;
+	-webkit-box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	        box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	-webkit-border-radius: 12rpx;
+	        border-radius: 12rpx;
+	position: absolute;
+	z-index: 2;
+	top: 112rpx;
+	left: 22rpx;
+}
+.logobackground2 {
+	background-color: #ffffff;
+	width: 210rpx;
+	height: 236rpx;
+	-webkit-box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	        box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	-webkit-border-radius: 12rpx;
+	        border-radius: 12rpx;
+	position: absolute;
+	z-index: 2;
+	top: 112rpx;
+	left: 247rpx;
+}
+.logobackground3 {
+	background-color: #ffffff;
+	width: 210rpx;
+	height: 236rpx;
+	-webkit-box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	        box-shadow: 3rpx 0rpx 22rpx rgba(51, 51, 51, 0.12);
+	-webkit-border-radius: 12rpx;
+	        border-radius: 12rpx;
+	position: absolute;
+	z-index: 2;
+	top: 112rpx;
+	left: 471rpx;
+}
+

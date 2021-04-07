@@ -1,0 +1,16 @@
+<!--pages/user/components/userList.wxml-->
+<view>
+  <view class="view">
+    <view class="outside" id="list">
+      <block wx:for="{{userList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <block class="ff">
+          <view data-event-opts="{{item.title}}" class="inside" bindtap="bind_user">
+            <image class="imglaq" src="{{item.image}}" mode="aspectFit"></image>
+            <text class="textlaq">{{item.title}}</text>
+            <image class="imglaq2" src="{{item.img}}" mode="aspectFit"></image>
+          </view>
+        </block>
+      </block>
+    </view>
+  </view>
+</view>

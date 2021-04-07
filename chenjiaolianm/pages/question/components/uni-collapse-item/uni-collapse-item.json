@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icons": "/pages/question/components/uni-icons/uni-icons"
+  }
+}

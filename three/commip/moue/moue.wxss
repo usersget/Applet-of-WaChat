@@ -1,0 +1,24 @@
+/* commip/moue/moue.wxss */
+.functional_block{
+  width: 100%;
+  height: 460rpx;
+  margin-top: 20rpx;
+}
+.functional_block .head{
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+}
+.head .le{
+  width: 30%;
+  line-height: 70rpx;
+}
+.head .right{
+  width: 90%;
+  height: 100%;
+  text-align: right;
+  color: #0f0;
+  line-height: 70rpx;
+}
+
+

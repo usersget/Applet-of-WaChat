@@ -1,0 +1,10 @@
+<!--commip/for/for.wxml-->
+<scroll-view scroll-x="{{true}}">
+  <block wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="id" >
+    <navigator  class="photo" url="/pages/store4/index?id={{list.id}}&text={{list.type}}">
+      <image src="{{list.cover.url}}"></image>
+      <view class="text">{{list.title}}</view>
+      <strat score="{{list.rating.value}}"></strat>
+    </navigator> 
+  </block>
+</scroll-view>

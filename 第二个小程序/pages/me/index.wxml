@@ -1,0 +1,18 @@
+<!--pages/me/index.wxml 联系我们  -->
+<view class="tt">
+  <view class="headspace">
+    <image src="/pages/image/lx.jpg"></image>
+  </view>
+  <view class="lianxi" wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="id">
+    <view class="tup">
+          <image src="/pages/image/tel.png"></image>
+    </view>
+    <view class="text">
+       {{list.id}}
+    </view>
+  </view>
+  <button>联系我们</button>
+  <view class="foot">
+  <text>@2020bndsuifd</text>
+  </view>
+</view>

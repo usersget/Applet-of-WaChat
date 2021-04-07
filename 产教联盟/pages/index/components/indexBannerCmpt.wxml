@@ -1,0 +1,5 @@
+<!--pages/index/components/indexBannerCmpt.wxml-->
+<view>
+  <view class="background">
+    <swiper class="swiper" indicator-dots="true" indicator-color="#FFFFFF" indicator-active-color="#5397E7" autoplay="{{true}}" interval="{{3000}}" duration="{{500}}" circular="{{true}}">
+      <navigator hover-class="none" wx:for="{{indexBannerCmpt}}" wx:for-item="item" wx:for-index="index" wx:key="index" url="/pages/activity/components/activityDetailCmpt?id={{item.id}}"><swiper-item><image style="width:100%;" src="{{item.advertisingPhoto}}" mode="widthFix"  bindtap="__e"></image></swiper-item></navigator></swiper></view></view>

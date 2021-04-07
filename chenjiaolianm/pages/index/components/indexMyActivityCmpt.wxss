@@ -1,0 +1,40 @@
+
+.myactivitybg.data-v-41864fb8 {
+	width: 702rpx;
+	height: 386rpx;
+	background-color: #ffffff;
+	-webkit-border-radius: 33rpx;
+	        border-radius: 33rpx;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20rpx;
+	padding: 33rpx 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.head.data-v-41864fb8 {
+	width: 142rpx;
+	height: 43rpx;
+}
+.title.data-v-41864fb8 {
+	width: 336rpx;
+	height: 36rpx;
+	font-size: 36rpx;
+	position: absolute;
+	top: 157rpx;
+	left: 183rpx;
+}
+.button.data-v-41864fb8 {
+	width: 250rpx;
+	height: 76rpx;
+	background-color: #418be2;
+	color: #ffffff;
+	font-size: 30rpx;
+	-webkit-border-radius: 38rpx;
+	        border-radius: 38rpx;
+	font-size: 32rpx;
+	position: absolute;
+	top: 232rpx;
+	left: 226rpx;
+}
+

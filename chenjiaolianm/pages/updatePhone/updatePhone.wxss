@@ -1,0 +1,92 @@
+
+.content {
+  padding: 0 23rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.photo {
+  width: 100%;
+  height: 80rpx;
+  margin-top: 78rpx;
+}
+.photo input {
+  -webkit-border-radius: 39rpx;
+          border-radius: 39rpx;
+  background: #e7e7e7;
+  height: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  padding-left: 52rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.verificationCode {
+  width: 360rpx;
+  height: 80rpx;
+}
+.verificationCode input {
+  -webkit-border-radius: 39rpx;
+          border-radius: 39rpx;
+  background: #e7e7e7;
+  height: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  padding-left: 52rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.button_style {
+  width: 284rpx;
+  line-height: 80rpx;
+  -webkit-border-radius: 39rpx;
+          border-radius: 39rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  background: -webkit-gradient(
+    linear,
+    left top, right top,
+    from(rgba(99, 161, 235, 1)),
+    to(rgba(65, 139, 226, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(99, 161, 235, 1),
+    rgba(65, 139, 226, 1)
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(99, 161, 235, 1),
+    rgba(65, 139, 226, 1)
+  );
+}
+.determine {
+  line-height: 80rpx;
+  background: -webkit-gradient(
+    linear,
+    left top, right top,
+    from(rgba(99, 161, 235, 1)),
+    to(rgba(65, 139, 226, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(99, 161, 235, 1),
+    rgba(65, 139, 226, 1)
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(99, 161, 235, 1),
+    rgba(65, 139, 226, 1)
+  );
+  margin-top: 25rpx;
+  -webkit-border-radius: 39rpx;
+          border-radius: 39rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 254, 254, 1);
+}
+

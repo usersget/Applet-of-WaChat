@@ -1,0 +1,12 @@
+<!--commip/moue/moue.wxml-->
+<view class="functional_block">
+  <view class="head">
+    <view class="le">
+      {{kind}}
+    </view>
+    <navigator  url="/pages/even/even?kind={{kind}}" class="right" hover-class="none">
+      更多
+    </navigator>
+  </view>
+  <for arr="{{arr}}"></for>
+</view>

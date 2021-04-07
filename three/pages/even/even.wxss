@@ -1,0 +1,21 @@
+/* pages/even/even.wxss */
+.photo{
+  width: 30%;
+  height: 400rpx;
+  display: inline-block;
+  margin: 0 12rpx;
+  text-align: center;
+  font-size: 12px;
+}
+.photo image{
+  width: 100%;
+  height: 70%;
+}
+.performance{
+  width: 70%;
+  height:30rpx;
+  margin: 0 auto;
+}
+.text{
+  overflow: hidden; text-overflow:ellipsis; white-space: nowrap; 
+}

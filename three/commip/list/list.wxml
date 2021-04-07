@@ -1,0 +1,11 @@
+<!--commip/list/list.wxml-->
+<view class="list">
+    <view class="list_left">
+      <text>{{head.durations[0]}} {{head.genres[0]}}/{{head.genres[1]}}</text>
+      <text>{{head.pubdate[0]}} 上映 {{head.countries[0]}}</text>
+      <text> {{head.directors[0].name}}（导演）{{head.card_subtitle}}</text>
+    </view>
+      <view class="list_right">
+        <image mode="withFix" src="{{head.pic.large}}"></image>
+    </view>
+  </view>

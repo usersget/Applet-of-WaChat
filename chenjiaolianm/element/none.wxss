@@ -1,0 +1,11 @@
+
+.nonedata.data-v-40f64379{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 30rpx 0;
+}
+

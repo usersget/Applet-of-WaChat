@@ -1,0 +1,42 @@
+/* pages/activity/components/activityDetailCmpt.wxss */
+
+.title1.data-v-ac4f89c0{
+	font-size: 28rpx;
+	color: #333333;
+	padding-top: 17rpx;
+	padding-left: 25rpx;
+	padding-right: 34rpx;
+}
+.image1.data-v-ac4f89c0{
+	width: 701rpx;
+	height: 295rpx;
+	padding-top: 19rpx;
+	padding-left: 24rpx;
+	padding-right: 25rpx;
+}
+.title2.data-v-ac4f89c0{
+	font-size: 28rpx;
+	color: #333333;
+	padding-top: 18rpx;
+	padding-left: 26rpx;
+	padding-right: 26rpx;
+}
+.image2.data-v-ac4f89c0{
+	width: 700rpx;
+	height: 374rpx;
+	padding-top: 21rpx;
+	padding-left: 25rpx;
+	padding-right: 25rpx;
+}
+.title3.data-v-ac4f89c0{
+	font-size: 28rpx;
+	color: #333333;
+	padding-top: 18rpx;
+	padding-left: 25rpx;
+	padding-right: 27rpx;
+}
+.null.data-v-ac4f89c0{
+	width: 100%;
+	height: 268rpx;
+}
+

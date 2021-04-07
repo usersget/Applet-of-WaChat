@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/activity",
+    "pages/user/user",
+    "pages/activity/components/activityDetailCmpt",
+    "pages/activity/components/activityInfoCmpt",
+    "pages/personalInfo/personalInfo",
+    "pages/activityOrder/activityOrder",
+    "pages/concern/concern",
+    "pages/aboutus/aboutus",
+    "pages/question/question",
+    "pages/feedback/feedback",
+    "pages/company/company",
+    "pages/signUp/signUp",
+    "pages/check/check",
+    "pages/check/checkSuccess",
+    "pages/check/checkError",
+    "pages/updatePhone/updatePhone",
+    "pages/orderDetails/orderDetails",
+    "pages/checkPhone/checkPhone",
+    "pages/activityOrderInfo/activityOrderInfo",
+    "pages/check/checkNoSign",
+    "pages/uploadCredentials/uploadCredentials",
+    "pages/submitSuccessfully/submitSuccessfully"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "./static/tabbar/index-a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "static/tabbar/activity.png",
+        "selectedIconPath": "static/tabbar/activity-a.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-a.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "load-list": "/element/loading",
+    "none-data": "/element/none"
+  },
+  "sitemapLocation": "sitemap.json"
+}

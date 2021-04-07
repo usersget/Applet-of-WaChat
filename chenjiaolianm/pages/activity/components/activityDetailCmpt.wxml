@@ -1,0 +1,5 @@
+<view class="data-v-ac4f89c0">
+  <view class="data-v-ac4f89c0">
+    <rich-text nodes="{{activityInfo}}"></rich-text>
+  </view>
+</view>

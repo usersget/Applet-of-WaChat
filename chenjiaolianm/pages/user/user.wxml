@@ -1,0 +1,1 @@
+<view><personal-cmpt vue-id="380011e0-1" bind:__l="__l"></personal-cmpt><order-cmpt vue-id="380011e0-2" bind:__l="__l"></order-cmpt><user-list vue-id="380011e0-3" bind:__l="__l"></user-list></view>

@@ -1,0 +1,76 @@
+
+<view class="container">
+    <image src="/image/V7702.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <image src="/image/F9.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <image src="/image/K77.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <image src="/image/L77.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <image src="/image/LS79.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <image src="/image/T77.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>桂七 </text>
+    </view> 
+    <view class="text">
+        <view class="line_y"></view>
+        <text>40元/500g </text>
+    </view>
+<button type="default" bindtap="calling">点击拨打派送电话</button>
+<view class="container">
+    <text class="daodi">到底了</text>
+</view>

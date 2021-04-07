@@ -1,0 +1,12 @@
+<view style="background-color:#F9F9F9;" class="data-v-57280228">
+  <index-banner-cmpt indexBannerCmpt="{{indexBannerCmpt}}" class="data-v-57280228"></index-banner-cmpt>
+  <index-menus-cmpt userid="{{userid}}" menus="{{menus}}" class="data-v-57280228"></index-menus-cmpt>
+  <block wx:if="{{Status}}">
+    <index-my-activity-cmpt  myActivity="{{myActivity}}" class="data-v-57280228"></index-my-activity-cmpt>
+  </block>
+  <block wx:if="{{!Status}}">
+    <index-my-activity-a-index myActivity="{{myActivity}}"class="data-v-57280228"></index-my-activity-a-index>
+  </block>
+  <company-cmpt company="{{company}}" class="data-v-57280228" ></company-cmpt>
+  <activity-list-cmpt activityListCmpt="{{activityListCmpt}}"class="data-v-57280228"></activity-list-cmpt>
+  </view> 

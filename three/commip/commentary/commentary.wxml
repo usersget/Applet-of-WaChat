@@ -1,0 +1,26 @@
+<!--commip/commentary/commentary.wxml-->
+<view class="paragrapher">
+    <text>短评(67624)</text>
+    <view wx:for="{{arrmove}}" wx:for-index="index" wx:for-item="list" wx:key="comment" class="paragrapher_bar">
+        <view class="img">
+            <image  class="head_portrait" src="{{list.user.avatar}}"></image>
+          </view>
+        <view class="message">
+            <view class="nickname">
+                <view>{{list.user.name}}</view>
+                <strat score="{{list.rating.value}}" IS="{{flase}}"></strat>
+                <view class="times">
+              {{list.create_time}}
+            </view>
+            </view>
+            <view class="message_text">
+            {{list.comment}}
+            </view>
+        </view>
+    </view>
+</view>
+
+<view wx:if="{{display}}" class="foot_button">
+<button>上一页</button>
+<button>下一页</button>
+</view>

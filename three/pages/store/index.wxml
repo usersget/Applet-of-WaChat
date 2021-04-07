@@ -1,0 +1,7 @@
+<navigation show="{{true}}"></navigation>
+<moue arr="{{move}}" kind="电影" style="position: relative; left: -1rpx; top: -19rpx">
+</moue>
+<moue arr="{{tv}}" kind="电视剧">
+</moue>
+<moue arr="{{zunyi}}" kind="综艺">
+</moue>

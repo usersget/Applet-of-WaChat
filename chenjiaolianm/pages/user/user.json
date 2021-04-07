@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "personal-cmpt": "/pages/user/components/personalCmpt",
+    "order-cmpt": "/pages/user/components/orderCmpt",
+    "user-list": "/pages/user/components/userList"
+  }
+}

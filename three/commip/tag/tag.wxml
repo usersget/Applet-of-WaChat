@@ -1,0 +1,7 @@
+<!--commip/tag/tag.wxml-->
+<view class="tag">
+  <text>豆瓣成员常用标签</text>
+    <view class="tag_y">
+      <view class="cricle" wx:for="{{bqs}}" wx:for-index="index" wx:key="index">{{item}}</view>
+    </view>
+  </view>

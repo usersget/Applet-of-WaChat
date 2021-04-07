@@ -1,0 +1,17 @@
+
+.background {
+	padding-top: 20rpx;
+	padding-left: 25rpx;
+	padding-right: 24rpx;
+}
+.swiper {
+	width: 700rpx;
+	height: 356rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	overflow: hidden;
+	-webkit-border-radius: 44rpx;
+	        border-radius: 44rpx;
+}
+

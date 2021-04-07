@@ -1,0 +1,21 @@
+/* commip/tag/tag.wxss */
+.tag{
+  width: 100%;
+  /* color: rgb(139, 134, 134); */
+}
+.tag_y{
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.tag_y .cricle{
+ margin: 5px 10px;
+  padding: 0 5px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgba(245, 239, 239,0.4);
+  /* border:1px solid black; */
+  text-align: center;
+  line-height: 20px;
+}

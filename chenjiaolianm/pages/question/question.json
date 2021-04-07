@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "常见问题",
+  "usingComponents": {
+    "uni-collapse": "/pages/question/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/pages/question/components/uni-collapse-item/uni-collapse-item"
+  }
+}

@@ -1,0 +1,16 @@
+<!--commip/navigation/navigation.wxml-->
+<!-- 搜索框 -->
+
+<view class="green"wx:if="{{show}}">
+  <navigator class="search_button" url="/pages/index/index" >
+      <view class="button">
+        <image src="/image/搜索.png"></image>
+      </view>
+  </navigator>
+</view>
+  <view class="green" wx:else>
+  <view class="search_box">
+    <input type="text" bindinput="onsearchinput" placeholder="搜索"/>
+    <image src="/image/搜索.png"></image>
+  </view>
+</view>          

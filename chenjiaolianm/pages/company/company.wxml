@@ -1,0 +1,1 @@
+<view><company-list-cmpt vue-id="247f4578-1" companyList="{{companyList}}" bind:__l="__l"></company-list-cmpt></view>

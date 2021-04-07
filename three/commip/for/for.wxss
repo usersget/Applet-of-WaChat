@@ -1,0 +1,28 @@
+/* commip/for/for.wxss */
+scroll-view {
+  width: 100%;
+  height: 380rpx;
+  white-space: nowrap;
+
+}
+.photo{
+  width: 30%;
+  height: 400rpx;
+  display: inline-block;
+  margin-right:20rpx;
+  text-align: center;
+  font-size: 12px;
+}
+.photo image{
+  width: 100%;
+  height: 70%;
+}
+
+.text{
+  margin: 5px 0;
+  overflow: hidden; 
+  text-overflow:ellipsis; 
+  white-space: nowrap; 
+ 
+}
+

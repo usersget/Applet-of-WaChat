@@ -1,0 +1,123 @@
+
+page {
+	background-color: #ffffff;
+}
+
+
+.scroll.data-v-60003a48 {
+	white-space: nowrap;
+	background-color: #fff;
+	padding: 20rpx 0 20rpx 24rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: inline-block;
+}
+.content.data-v-60003a48 {
+	position: absolute;
+	top: 110rpx;
+}
+.tab.data-v-60003a48 {
+	height: 92rpx;
+	display: inline-block;
+	margin-left: 200rpx;
+}
+.con-text.data-v-60003a48 {
+	color: #888888;
+	font-size: 30rpx;
+	text-align: center;
+}
+.active .con-text.data-v-60003a48 {
+	color: #333333;
+	font-weight: bold;
+}
+.active .swiper-tab-line.data-v-60003a48 {
+	border-bottom: 6rpx solid #5598e7;
+	width: 100%;
+	margin: 20rpx auto 0;
+	border-top: 6rpx solid #5598e7;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.info.data-v-60003a48 {
+	margin-top: 20rpx;
+	height: 160rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.image.data-v-60003a48 {
+	width: 254rpx;
+	height: 150rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	overflow: hidden;
+	-webkit-border-radius: 12rpx;
+	        border-radius: 12rpx;
+	margin-left: 44rpx;
+}
+.image image.data-v-60003a48 {
+	width: 254rpx;
+	height: 150rpx;
+}
+.title.data-v-60003a48 {
+	font-size: 28rpx;
+	color: #333333;
+	padding-left: 21rpx;
+	width: 361rpx;
+	font-weight: bold;
+}
+.info1.data-v-60003a48 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.addr.data-v-60003a48 {
+	font-size: 22rpx;
+	color: #888888;
+	padding-left: 21rpx;
+	padding-top: 62rpx;
+}
+.time.data-v-60003a48 {
+	font-size: 22rpx;
+	color: #888888;
+	padding-left: 95rpx;
+	padding-top: 62rpx;
+}
+.Cimage.data-v-60003a48 {
+	width: 96rpx;
+	height: 96rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	overflow: hidden;
+	-webkit-border-radius: 12rpx;
+	        border-radius: 12rpx;
+	margin-left: 51rpx;
+}
+.Cimage image.data-v-60003a48 {
+	width: 96rpx;
+	height: 96rpx;
+}
+.Ctitle.data-v-60003a48 {
+	font-size: 24rpx;
+	color: #333333;
+	padding-left: 24rpx;
+	width: 361rpx;
+	font-weight: bold;
+}
+.Cnum.data-v-60003a48 {
+	font-size: 20rpx;
+	color: #888888;
+	padding-left: 21rpx;
+	padding-top: 25rpx;
+}
+

@@ -1,0 +1,104 @@
+
+.background.data-v-666bda40 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+}
+.image.data-v-666bda40 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 69rpx;
+}
+.image image.data-v-666bda40 {
+	width: 170rpx;
+	height: 170rpx;
+}
+.tip.data-v-666bda40 {
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	padding-top: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title.data-v-666bda40 {
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(102, 102, 102, 1);
+	padding-top: 19rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.button.data-v-666bda40 {
+	padding-top: 59rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.button button.data-v-666bda40 {
+	color: rgba(65, 139, 226, 1);
+	width: 210rpx;
+	height: 70rpx;
+	border: 2rpx solid rgba(65, 139, 226, 1);
+	-webkit-border-radius: 35rpx;
+	        border-radius: 35rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size: 30rpx;
+}
+.cancel.data-v-666bda40 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 19rpx;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(136, 136, 136, 1);
+}
+

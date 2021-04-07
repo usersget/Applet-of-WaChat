@@ -1,0 +1,39 @@
+
+.hotbackgroud.data-v-06e5a6a6 {
+	background-color: #ffffff;
+	width: 702rpx;
+	-webkit-border-radius: 33rpx;
+	        border-radius: 33rpx;
+	position: absolute;
+	margin-top: 418rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 100rpx;
+}
+.head.data-v-06e5a6a6 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: 69rpx;
+}
+.headicon.data-v-06e5a6a6 {
+	padding-top: 28rpx;
+	padding-left: 20rpx;
+	width: 142rpx;
+	height: 40rpx;
+}
+.headtitle.data-v-06e5a6a6 {
+	padding-top: 20rpx;
+	padding-left: 420rpx;
+}
+.activityinfo.data-v-06e5a6a6 {
+	width: 100%;
+	height: 100;
+}
+.more.data-v-06e5a6a6 {
+	padding-top: 61rpx;
+	padding-left: 284rpx;
+	padding-bottom: 40rpx;
+}
+

@@ -1,0 +1,11 @@
+<!--pages/store4/index.wxml-->
+<view class="yy">
+  <view class="name">
+    <text>{{head.title}} ({{head.year}})</text>
+  </view>
+  <strat score="{{head.rating.value}}" x="{{30}}" y="{{30}}"></strat> 
+  <list head="{{head}}"></list>
+  <tag bqs="{{bqs}}"></tag>
+  <commentary score="{{score}}" id="{{uu}}" text="{{head.subtype}}" arrmove="{{arrmove}}" ></commentary>
+  <navigator class="nav_pin" url="/pages/detail/detail?id={{id}}&text={{head.subtype}}&score={{score}}">更多短评</navigator>
+</view>

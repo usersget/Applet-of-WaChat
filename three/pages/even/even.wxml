@@ -1,0 +1,8 @@
+<!--pages/even/even.wxml-->
+      <navigation></navigation>
+      <navigator url="/pages/store4/index"class="photo" wx:for="{{move}}" wx:for-index="index" wx:for-item="list" wx:key="id">
+        <image src="{{list.cover.url}}"></image>
+        <view class="text">{{list.title}}</view>
+        <strat score="{{list.rating.value}}"></strat>
+      </navigator>
+
