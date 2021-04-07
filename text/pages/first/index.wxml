@@ -1,0 +1,39 @@
+<swiper autoplay="{{true}}" indicator-dots="{{true}}" interval="{{2000}}" circular="{{true}}">
+  <swiper-item>
+    <image mode="widthFix" src="/pages/imges/manager/tabs/bg1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image  mode="widthFix"  src="/pages/imges/manager/tabs/bg2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="/pages/imges/manager/tabs/bg1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image  mode="widthFix"  src="/pages/imges/manager/tabs/bg2.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="box">
+<view wx:for="{{licon}}" wx:for-index="index"wx:for-item="item" wx:key="id">
+  <navigator url="{{item.address}}" hover-class="none">
+  <view class="cen">
+<image src="{{item.id}}"></image>
+<view class="family">{{item.conter}}</view>
+</view>
+</navigator>
+</view>
+</view>
+<view class="curriculum" wx:for="{{curriculum}}" wx:for-index="index" wx:key="id">
+    <view class="bor">
+      <image src="{{item.id}}">
+      </image>
+    </view>
+    <view class="content">
+       <view>{{item.openstack}}</view>
+       <view class="font-red">￥{{item.piace}}</view>
+    </view>
+    <view class="right">
+      <navigator hover-class="none" url="/pages/goumai/index?jiage={{item.piace}}&tupian={{item.id}}&miaoshu={{item.meirong}}&kecheng={{item.openstack}}" >
+        <button>{{item.gouman}}</button>
+      </navigator>
+    </view>
+</view>

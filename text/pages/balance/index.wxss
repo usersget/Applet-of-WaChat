@@ -1,0 +1,51 @@
+/* pages/balance/index.wxss */
+input{
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  border-bottom: 2rpx solid lightslategray;
+}
+.dd{
+  width: 100%;
+  height: 100rpx;
+}
+/* pages/consume/index.wxss */
+view{
+  font-family: "楷体";
+}
+.show{
+  padding-left: 15rpx;
+  margin-top: 10rpx;
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 2rpx solid rgb(39, 38, 38);
+  display: flex;
+}
+.show_l{
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+.show_l image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.show_l view{
+  line-height: 80rpx;
+}
+
+.show_r{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  line-height: 80rpx;
+  color: #f40;
+}
+button{
+  color: white;
+  background-color:  #ff2150;
+  width: 100%;
+  height: 100rpx;
+  border-radius: 10px 10px 0 0;
+  position: fixed;
+  bottom: 0;
+}

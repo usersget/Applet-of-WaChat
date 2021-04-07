@@ -1,0 +1,64 @@
+.font-red{
+  color:#f40;
+}
+swiper image{
+  width: 100%;
+}
+view image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.box {
+  margin-top: 50rpx;
+  width: 100%;
+  height: 100rpx;
+  font-family: "宋体";
+  font-size: 14px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.box view {
+  width: 100%;
+  height: initial;
+  /* border: 1px solid red; */
+}
+.fimlmyP{
+  text-align: center;
+}
+.cen{
+  text-align: center;
+}
+.curriculum{
+  margin-top: 50rpx;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  /* border: 1px solid red; */
+}
+.curriculum view{
+  /* border: 1px solid red; */
+}
+.content {
+  font-family: "楷体";
+  width: 50%;
+}
+.bor{
+  width: 20%;
+  padding: 10rpx;
+}
+.bor image{
+  width: 90%;
+  height: 95%;
+}
+.right {
+  width: 30%;
+  padding-top: 10rpx;
+}
+.right button{
+  font-size: 14px;
+  line-height: 70rpx;
+  text-align: center;
+  width: 160rpx;
+  height: 70rpx;
+  background-color:aqua;
+}

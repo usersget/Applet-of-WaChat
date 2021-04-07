@@ -1,0 +1,17 @@
+<!--pages/material/index.wxml-->
+<text> 姓名</text>
+<text> DVD</text>
+
+<view class="phone">
+<text>联系电话</text>
+<input type="text" placeholder="请输入电话号码" />
+</view>
+<view class="home">
+  <text>收货地址（家）</text>
+  <input type="text" placeholder="请填写收货地址" />
+</view>
+<view class="home">
+  <text>收货地址（家）</text>
+  <input type="text" placeholder="请填写收货地址" />
+</view>
+

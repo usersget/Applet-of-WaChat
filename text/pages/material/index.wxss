@@ -1,0 +1,17 @@
+/* pages/material/index.wxss */
+text{
+  display:block;
+}
+.phone{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid rgb(131, 122, 122);
+}
+.home{
+  width: 100%;
+  height: 120rpx;
+  border-bottom: 1px solid rgb(131, 122, 122);
+}
+ input{
+margin: 10rpx;
+}

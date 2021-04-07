@@ -1,0 +1,15 @@
+<!--pages/yuyue/index.wxml-->
+<view class="fuwuxiangmu">
+  服务项目 ： 中国
+</view>
+<view class="riqi">
+ <text> 到店日期 ：<input type=""/></text> 
+</view>
+<view class="time">
+  到店时间 ： 12：00
+</view>
+<view class="luiyan">
+  留言
+  <input type="text"/>
+</view>
+  <button>立即预约</button>

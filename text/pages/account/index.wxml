@@ -1,0 +1,36 @@
+<view class="app">
+  <!--pages/account/index.wxml-->
+  <view class="card">
+    <image class="bgi" src="/pages/imges/icons/profile_bg.png"></image>
+    <image class="QR" src="/pages/imges/icons/ewm.png"></image>
+    <view class="screen_name">
+      <text>{{name}}</text>
+      <text>{{care}}{{card_num}}</text>
+    </view>
+  </view>
+  <!-- 占位 -->
+  <view class="null"></view>
+  
+  <view class="option_box" wx:for="{{option_menu}}" wx:for-index="index" wx:for-item="list" wx:key="picture">
+    <navigator url="{{list.address}}">
+      <image src="{{list.picture}}"></image>
+      <view>{{list.content}}</view>
+  </navigator>
+    <view class="option_box_right">
+      <view class="{{list.iconic?'symboll':''}}" wx:if="{{list.iconic}}">
+          <view class="wi">
+            {{list.iconic}}
+          </view>
+          <view class="hi">
+            {{list.symbol}}
+          </view>
+      </view>
+      <view class="symbol" wx:else>
+          <image src="{{list.symbol}}"></image>
+      </view>
+    </view>
+  
+    
+  
+  </view>
+</view>

@@ -1,0 +1,31 @@
+/* pages/recharge/index.wxss */
+view{
+  font-family: "楷体";
+}
+.show{
+  padding-left: 15rpx;
+  margin-top: 10rpx;
+  width: 100%;
+  height: 150rpx;
+  border-bottom: 2rpx solid rgb(39, 38, 38);
+  display: flex;
+}
+.show_l{
+  padding-top: 15rpx;
+  width: 40%;
+  height: 100%;
+  line-height: 50rpx;
+}
+.show_l text{
+  display: inline-block;
+}
+.show_r{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  line-height: 150rpx;
+  color: #f40;
+}
+.col{
+  color: rgb(146, 143, 143);
+}

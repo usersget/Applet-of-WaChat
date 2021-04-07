@@ -1,0 +1,14 @@
+<!-- <swiper circular="{{true}}" autopla="{{true}}" indicator-dots="{{true}}" indicator-color="red" interval="{{100}}" indicator-active-color="#fff">
+  <swiper-item >
+    <image mode="widthFix" src="../imges/manager/tabs/bg1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="../imges/manager/tabs/bg2.jpg"></image>
+  </swiper-item>
+  <swiper-item >
+    <image mode="widthFix" src="../imges/manager/tabs/bg1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="../imges/manager/tabs/bg2.jpg"></image>
+  </swiper-item>
+</swiper> -->

@@ -1,0 +1,11 @@
+<!--pages/recharge/index.wxml 充值记录-->
+<!-- <text>充值记录</text> -->
+<view class="show" wx:for="{{aee}}" wx:for-index="index" wx:for-item="list" wx:key="id">
+  <view class="show_l">
+    <text>{{list.time}}</text>
+    <text class="col">{{list.id}}</text>
+  </view>
+  <view class="show_r">
+    +{{list.pirce}}
+  </view>
+</view>

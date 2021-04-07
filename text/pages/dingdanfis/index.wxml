@@ -1,0 +1,25 @@
+<!--pages/dingdanfis/index.wxml-->
+<scroll-view scroll-x="{{1}}">
+      <view wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="id"
+      data-num="{{list.id}}"
+      bindtap="active"
+      class="{{list.id==num?'active':''}}">
+        {{list.text}}
+      </view>
+</scroll-view>
+<view wx:for="{{arraa}}" wx:for-item="list" wx:if="{{list.id==num}}">
+   <view class="curriculum" wx:for="{{list.arr}}" wx:for-item="item">
+        <view class="bor">
+          <image src="{{item.id}}"></image>
+        </view>
+        <view class="content">
+          <view>{{item.openstack}}</view>
+          <view class="font-red">{{item.piace}}</view>
+          <text>订单状态:{{item.fangshi}}</text>
+        </view>
+        <view class="right">
+            <button>{{item.gouman}}</button>
+        </view>
+   </view>
+
+</view>

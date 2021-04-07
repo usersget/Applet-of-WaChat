@@ -1,0 +1,52 @@
+<view class="dingdanhao">
+  <view class="fi">订单号：123456456</view>
+  <view class="ri">{{z}}</view>
+</view>
+<view class="dingdanhao">
+  <view class="fi">商品清单</view>
+</view>
+<view class="dingdanxingxi">
+  <view class="fl">
+    <image src="{{tupian}}"></image>
+  </view>
+  <view class="rl">
+    <view class="topi">
+    {{kecheng}}
+    </view>
+    <view class="buttomi">
+    {{zongjia}}X{{num}}
+    </view>
+  </view>
+</view>
+<view class="three">
+  <view class="ji">
+    合计：{{zongjia}} 元
+  </view>
+  <view class="li">
+    配送信息
+  </view>
+</view>
+<view class="peisong" >
+  <image src="/pages/imges/icons/lc.png"></image>
+  <view class="shang" wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="name">
+    <view>{{item.name}} {{item.phone}}
+    </view>
+    <text>{{item.dizhi}}</text> 
+     </view>
+</view>
+<view class="zhifu">
+    <view>
+      选择支付方式
+    </view>
+</view>
+<view class="page-section bor">
+        <checkbox> </checkbox> 会员卡余额 （可用{{nambum}}元）
+      </view>
+        <view class="page-section">
+        <checkbox> </checkbox> 微信支付
+    </view>
+<view class="foot">
+  <navigator url="/pages/account/index">
+    <button bindtap="tishi" bindtao="weigoumai">付款</button>
+  </navigator>
+</view>

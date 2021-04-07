@@ -1,0 +1,23 @@
+<view class="m">
+<view class="img">
+  <image src="{{tupian}}"></image>
+</view>
+<view class="fix">
+<view class="lf">价格：{{jiage}}</view>
+<view class="rf"> <button data-number="{{1}}"
+  bindtap="hander">购买</button></view>
+</view>
+<view class="biankuan">
+  {{miaoshu}}
+</view>
+<view class="foot">
+<image src="../imges/icons/shop.png"></image>
+{{num}}件商品{{zongjia}}元
+<view class="button">
+  <navigator wx:if="{{num>0}}" url="/pages/dingdan/index?tupian={{tupian}}&kecheng={{kecheng}}&zongjia={{zongjia}}&num={{num}}&jiage={{jiage}}">
+   <button>生成订单</button>
+  </navigator>
+  <button wx:else bindtap="tishi">生成订单</button>
+</view>
+</view>
+</view>

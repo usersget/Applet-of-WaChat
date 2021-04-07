@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/first/index",
+    "pages/goumai/index",
+    "pages/index/index",
+    "pages/recharge/index",
+    "pages/consume/index",
+    "pages/material/index",
+    "pages/logs/logs",
+    "pages/account/index",
+    "pages/dingdan/index",
+    "pages/dingdanfis/index",
+    "pages/yuyue/index",
+    "pages/balance/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "020商城",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/index",
+        "iconPath":"./pages/imges/manager/tabs/store_normal.png",
+        "selectedIconPath":"./pages/imges/manager/tabs/store_select.png",
+        "text": "商店"
+      },
+      {
+        "pagePath": "pages/yuyue/index",
+        "iconPath":"./pages/imges/manager/tabs/bespeak_normal.png",
+        "selectedIconPath":"./pages/imges/manager/tabs/bespeak_select.png",
+        "text": "预约"
+      },
+      {
+        "pagePath":"pages/dingdanfis/index",
+        "iconPath":"./pages/imges/manager/tabs/order_normal.png",
+        "selectedIconPath":"./pages/imges/manager/tabs/order_select.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/account/index",
+        "iconPath":"./pages/imges/manager/tabs/profile_normal.png",
+        "selectedIconPath":"./pages/imges/manager/tabs/profile_select.png",
+        "text": "账户"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

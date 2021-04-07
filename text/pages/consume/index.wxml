@@ -1,0 +1,12 @@
+<!--pages/consume/index.wxml-->
+<!-- <text>消费记录</text> -->
+<view class="show" wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="class">
+  <view class="show_l">
+    <text>{{list.class}}</text>
+    <text>{{list.order}}{{list.number}}</text>
+    <text>{{list.datatime}}{{time}}</text>
+  </view>
+  <view class="show_r">
+    -{{pricr}}
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/balance/index.wxml  账户余额-->
+
+  <input type="text" placeholder="请输入充值金额" />
+<view class="dd"></view>
+<view class="show" wx:for="{{arr}}" wx:for-index="index" wx:for-item="list" wx:key="id">
+  <view class="show_l">
+    <image src="{{list.id}}"></image>
+   <view>{{list.name}}</view>
+  </view>
+  <view class="show_r">
+   <radio></radio>
+  </view>
+</view>
+<button>确认</button>
+

@@ -1,0 +1,111 @@
+.app{
+  width: 100%;
+  height: 100%;
+  font-family:"华文楷体";
+}
+/* pages/account/index.wxss */
+.card{
+  width: 95%;
+  /* border: 2px solid red; */
+  height: 200rpx;
+  margin: 10rpx auto;
+  position: relative;
+}
+.card .bgi{
+  width: 100%;
+  height: 100%;
+}
+.card .QR{
+  z-index: 999;
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 20px;
+  top: 15rpx;
+}
+.card .screen_name{
+  position: absolute;
+  left: 130rpx;
+  top: 50rpx;
+  width: 430rpx;
+  height: 120rpx;
+  color: white;
+  padding-left: 20rpx;
+  font-family: "微软雅黑";
+
+}
+.card text{
+  display: block;
+}
+.null{
+  width: 97%;
+  height: 100rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(56, 55, 55);
+}
+.option_box{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 2rpx solid rgb(56, 55, 55);
+  padding-left: 10rpx;
+  display: flex;
+}
+navigator{
+  width: 40%;
+  height: 100%;
+  line-height: 100rpx;
+}
+navigator image{
+width: 50rpx;
+height: 60rpx;
+margin-top: 20rpx;
+margin-right: 10px;
+margin-left: 5px;
+}
+navigator view{
+  width: 150rpx;
+  height: 100%;
+  display: inline-block;
+}
+.option_box_right{
+  position: relative;
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid red; */
+  padding-right: 10px;
+  text-align: right;
+}
+.symbol{
+  width: 100rpx;
+  height: 100%;
+  display: inline-block;
+  line-height: 100rpx;
+  text-align: left;
+}
+.symboll{
+  right: -53px;
+  position: absolute;
+  display: flex;
+  width: 300rpx;
+  height: 100%;
+  text-align: left;
+  /* line-height: 100rpx; */
+  color: #ff4400;
+  padding-top: 16px;
+}
+.hi{
+  font-family:"华文琥珀";
+  font-size: 12px;
+  width: 50rpx;
+  height: 40rpx;
+  border:2px  solid red;
+  line-height: 40rpx;
+  text-align: center;
+  margin-left:12rpx ;
+}
+.symbol image{
+  margin-top: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+  /* margin-left: px; */
+} 
