@@ -1,0 +1,32 @@
+@import "./styles/iconfont.wxss";
+
+/*初始化样式*/
+
+page,
+view,
+text,
+switch,
+switch-item,
+image,
+navigator {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*主题颜色 通过颜色实现
+1.less中存在变量这个东西
+2.原生的css和wxss也支持变量
+*/
+
+page {
+    /*定义主题颜色*/
+    --themeColor: #eb4450;
+    /*定义统一字体大小*/
+    font-size: 28rpx;
+}
+
+image {
+    width: 100%;
+}
